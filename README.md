@@ -1,6 +1,6 @@
-# Division Solver
+# Division Solver (swift)
 
-Divison Solver is a framework that solves arbitrary serial division problems represented as nested arrays of doubles.
+Division Solver is a framework that solves arbitrary serial division problems represented as nested arrays of doubles.
 
 ```
 [[16,[8,2],4],2,80]
