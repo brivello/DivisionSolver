@@ -21,7 +21,7 @@ extension Double : Divisible {
             return self.divideBy(denominator: denominator.divide())
         }
     }
-    func divide() -> Double {
+    internal func divide() -> Double {
         return self
     }
 }
@@ -29,7 +29,7 @@ extension Double : Divisible {
 extension Array: Divisible where Iterator.Element: Any /* <- 'Any' cannot be 'Divisible' */ { /*
      03/02/2019 Swift_4.2
      - It was necessary to extend arrays of type 'Any' to acheive the desired functionality in unbalanced/heterogenious arrays.
-     - When only extending Arrays: Divisible, problems like [2, [4, 5], 3] were not be able to access Divisible due to the design of swift
+     - When only extending Arrays: Divisible, problems like [2, [4, 5], 3] were not be able to access Divisible due to the current functionality of swift
      - Error when force cast to Divisible -> Heterogeneous collection literal could only be inferred to '[Any]'; */
     internal func divideBy(denominator: Divisible) -> Divisible {
         return self.divide().divideBy(denominator: denominator)
