@@ -45,6 +45,9 @@ protocol Divisible {
     - easily extended to add other data types (int, float etc.)
     - framework allows easy inclusion in any project
 ### Disadvantages
-    - recursive design means additional memory allocated in stack for each element in the array. This may not be the best   solution for large scale division problems
+    - recursive design means additional memory allocated in stack for each element in the array.
+    
+## Complexity
+```O(n)``` where n = number of doubles + number of arrays
 
 
