@@ -1,0 +1,11 @@
+framework module DivisionSolver {
+  umbrella header "DivisionSolver.h"
+
+  export *
+  module * { export * }
+}
+
+module DivisionSolver.Swift {
+    header "DivisionSolver-Swift.h"
+    requires objc
+}
