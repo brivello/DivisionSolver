@@ -48,6 +48,6 @@ protocol Divisible {
     - recursive design means additional memory allocated in stack for each element in the array.
     
 ## Complexity
-```O(n)``` where n = number of doubles + number of arrays
+```O(n) where n = number of doubles + number of arrays ```
 
 
