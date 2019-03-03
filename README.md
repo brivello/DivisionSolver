@@ -39,7 +39,7 @@ protocol Divisible {
     func divide() -> Double
 }
 ```
-If you would like to learn more about this topic I would recommend [John Sundells article on Conditional Conformances in Swift.](https://medium.com/@johnsundell/conditional-conformances-in-swift-f6601d40aabb)
+If you would like to learn more about this topic, I recommend reading [John Sundells article on Conditional Conformances in Swift.](https://medium.com/@johnsundell/conditional-conformances-in-swift-f6601d40aabb)
 
 ## Approach
 ### Advantages
