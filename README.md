@@ -39,6 +39,8 @@ protocol Divisible {
     func divide() -> Double
 }
 ```
+If you would like to learn more about this topic I would recommend [John Sundells article on Conditional Conformances in Swift.](https://medium.com/@johnsundell/conditional-conformances-in-swift-f6601d40aabb)
+
 ## Approach
 ### Advantages
     - clean, easy to use syntax
@@ -48,6 +50,6 @@ protocol Divisible {
     - recursive design means additional memory allocated in stack for each element in the array.
     
 ## Complexity
-```O(n) where n = number of doubles + number of arrays ```
+```O(n) where n = number of numbers + number of arrays ```
 
 
