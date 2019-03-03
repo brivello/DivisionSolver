@@ -25,7 +25,7 @@ The framework is also available for download if you would like to incorperate th
 
 ## How To Use
 
-The only external facing function is Array.divide( ). Just call it on your valid input array and it will return the correct soltution.
+The only external facing function is ```Array.divide( )```. Simply call it on your valid input array and it will return the correct soltution.
 
 ```
 let solution = [[16,[8,2],4],2,80].divide()
