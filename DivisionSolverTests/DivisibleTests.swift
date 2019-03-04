@@ -3,7 +3,7 @@
 //  DivisionSolverTests
 //
 //  Created by Developer on 3/2/19.
-//  Copyright © 2019 Suitable. All rights reserved.
+// 
 //
 
 import Foundation
