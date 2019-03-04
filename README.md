@@ -45,7 +45,7 @@ If you would like to learn more about this topic, I recommend reading [John Sund
 ### Advantages
     - clean, easy to use syntax
     - easily extended to add other data types (int, float etc.)
-    - framework allows easy inclusion in any project
+    - framework allows easy inclusion in any compatible project
 ### Disadvantages
     - recursive design means additional memory allocated in stack for each element in the array.
     
